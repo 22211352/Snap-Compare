@@ -59,7 +59,7 @@ DATABASE_URL=postgresql+psycopg2://postgres:postgres@localhost:5432/shopping_ai
 
 √ 商品图片上传
 √ AI 商品识别
-√ 商品比价
+× 商品比价
 × 自然语言筛选
 √ 商品详情
 × 收藏
