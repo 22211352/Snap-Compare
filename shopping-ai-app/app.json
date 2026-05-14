@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "智能识物比价购物助手",
+    "slug": "shopping-ai-app",
+    "scheme": "shoppingai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-camera",
+      "expo-image-picker",
+      "expo-asset"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "用于拍摄商品图片并上传到服务端识别。",
+        "NSPhotoLibraryUsageDescription": "用于选择商品图片并上传到服务端识别。"
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
